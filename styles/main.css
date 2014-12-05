@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#body {
+	color: #151515;
+	background-color: #EFF5F8;
+}
+#wrapper {
+	height: auto;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headimg {
+    position: relative;
+    clear: left;
+}
+
+
+#headimg article {
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #151515;
+    color: #FFFFFF;
+    border-radius: 15px;
+	text-align:center;
+}
+
+#headimg h2 {
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#headimg img{
+	max-width:100%;
+}
+
+h1, h2 {
+    color: #901E90;
+    font-style: normal;
+    font-weight: 600;
+    font-family: source-sans-pro;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #C51558;
+/*    display: inline-block; */
+ padding: 0px;
+    margin: 0px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #C51558;
+    display: inline-block; 
+ padding: 0px;
+    margin: 0px;
+}
+
+#aboutmemain {
+    width: 50%;
+    margin-left: 2%;
+    float: left;
+}
+
+#researchmain {
+    width: 88%;
+    margin-left: 2%;
+    float: left;
+}
+
+#musicmain {
+    width: 80%;
+    margin-left: 2%;
+    float: left;
+}
+
+#othermain {
+    width: 80%;
+    margin-left: 2%;
+    float: left;
+}
+
+#sidebar {
+    width: 30%;
+    margin-left: auto;
+	margin-right: auto;
+    float: left;
+}
+
+#sidebar p {
+	text-align: center;
+}
+
+footer {
+    clear: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2%;
+    background-color: #901E90;
+    color: #FFFFFF;
+}
+
+#portraitpic {
+    /*width: 420px;*/
+	/*display:table;*/
+	display:inline-block;
+}
+
+#portraitpic img {
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+}
+
+#aboutmemain .ach{
+    font-weight: bold;
+    color: #C51558; 
+}
+
+figcaption {
+    /*display: block;*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+	margin: auto;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatleft {
+    margin-right: 10px;
+    float: left;
+}
+
+.floatright {
+    margin-left: 10px;
+    float: right;
+}
+
+a {
+    font-weight: bold;
+    color: #C51558;
+    text-decoration: none;
+}
+
+a:link {
+    color: #C51558;
+}
+
+a:visited {
+    color: #C51558;
+}
+
+a:hover, a:active, a:focus {
+    color: #7F3300;
+    text-decoration: underline;
+}
+
+#mainnav {
+	text-align:center;
+}
+
+/*#mainnav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+}*/
+
+#mainnav li {
+	display:inline;
+}
+
+#mainnav a {
+    width: 27%;
+    /*display: block;*/
+	display: inline-block;
+    /*float:left;*/
+    background-color: #4D4D4D;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+    text-decoration: none;
+    background-color: #BC257A;
+}
+
+/*----------------------------------*/
+
+#rpublication{
+	height = 300px;
+	width = 1900px;
+	margin-bottom:10px;
+}
+
+#rpublication img{
+	/*width: 35%;*/
+	/*max-height:300px;*/
+	/*margin-right:10px;*/
+	
+}
+
+#rpublication ul li {
+   line-height:1.4em;
+	margin:0px;
+	padding:0px;
+margin-left: 40%;
+}
+
+#rpublication .publicationbib{
+	margin-left: 40%;
+}
+
+#rpublication .publicationsummary{
+	margin-left: 40%;
+}
+
+#rpublication .fig{
+	margin-left: 40%;
+
+}
+
+#rpublication h3{
+	margin-left: 40%;
+	color: #C51558; /*#901E90;*/
+}
+
+mypublications{
+	height: auto;
+	width: 95%;
+	max-width: 1900px;
+	min-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+mypublications hr {
+    display: block;
+      border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+	clear: both;
+}
+
+/*-------------------------------*/
+#otherthing{
+	height = 300px;
+	width = 900px;
+	margin-bottom:10px;
+}
+
+#otherthing img{
+	width: 25%;
+	max-height:300px;
+	margin-right:10px;
+}
+
+#otherthing .otinfo{
+	margin-left: 30%;
+}
+
+#otherthing h3{
+	margin-left: 30%;
+	color: #C51558; /*#901E90;*/
+}
+
+myotherthings{
+	height: auto;
+	width: 95%;
+	max-width: 1100px;
+	min-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+myotherthings hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+	clear: both;
+}
+/*----------------------*/
+
+
+article, aside, figure, footer, header, nav {
+    display: block;
+}
