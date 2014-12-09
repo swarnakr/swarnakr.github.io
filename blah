@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Swarna KR</title>
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+<header id="top">
+<h1>Swarna &nbsp; Kamlam  &nbsp; Ravindran</h1>
+<div id="headimg">
+<!---<article id="headimgarticle">
+   	  	--> </div>
+    <nav id="mainnav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html" class="thispage">Alter Ego</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!----------------------------------------->
+  
+  <article id="othermain">
+    <myotherthings>
+          
+<h2> Literature and Life </h2>
+      <object width="500" height="300"><param name="movie" value="https://www.youtube.com/v/J7E-aoXLZGY"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/J7E-aoXLZGY" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="300"></embed></object>
+<br /> <br />
+<!--<h3></h3>-->
+      <h4> Favourite Authors: Roger Penrose. Stephen Fry. JRR Tolkein. PG Wodehouse. Ayn Rand. </h4>
+<br /><br />
+<h2>The Wildling</h2>
+<h4>Trekking and Mountaineering</h4>
+<ul><li>Silver and Bronze medal with Akara Foundation: Tada, Munnar, Bangalore, Mysore</li> 
+<li>Chennai Trekking Club: Trek Extensively in the Eastern and Western Ghats;
+Nagalapuram, Venkatagiri, Palani Hills, Kodai Hills, Ombathuguda</li></ul>
+<h4>Marathons</h4> Terry Fox Cancer Run '11 and '12
+
+<br /><br />
+<h2>Sports</h2>
+<h5>Table Tennis</h5> (Zonal Champion) <h5> . Badminton. Swimming. </h5>
+
+<br /><br />
+<h2>Volunteer</h2>
+<h5>Tsunami Rehabiliation</h5> (Research Assistant at "Made in Madras Ink" documentary) <h5>Children's Education. Women Empowerment <h5>
+
+<br />
+<h2>Other Interests</h2>
+<p>Gravity. Grand Unified Theory. Terry Tao. The Rubik's cube.  
+60's rock. Indian Classical. Poetry. Cooking. Humans. </p>
+
+      <!----------------------------------------->
+    </myotherthings>
+  </article>
+  <footer>
+ <p> Not all those who wander are lost &nbsp; ~ JRR tolkein</p>
+  </footer>
+</div>
+</body>
+</html>
+

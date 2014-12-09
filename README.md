@@ -1,2 +1,0 @@
-swarnakr.github.io
-==================

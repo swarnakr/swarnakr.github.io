@@ -77,32 +77,27 @@ h5 {
 }
 
 #aboutmemain {
-    width: 50%;
-    margin-left: 2%;
+    width: 58%;
+    margin-left: 14%;
     float: left;
 }
 
 #researchmain {
-    width: 88%;
-    margin-left: 2%;
+    width: 75%;
+    margin-left: 14%;
     float: left;
 }
 
-#musicmain {
-    width: 80%;
-    margin-left: 2%;
-    float: left;
-}
 
 #othermain {
-    width: 80%;
-    margin-left: 2%;
+    width: 75%;
+    margin-left: 14%;
     float: left;
 }
 
 #sidebar {
-    width: 30%;
-    margin-left: auto;
+    width: 23%;
+    margin-left: 2%;
 	margin-right: auto;
     float: left;
 }
@@ -219,13 +214,13 @@ a:hover, a:active, a:focus {
 	width = 1900px;
 	margin-bottom:10px;
 }
-
+/*
 #rpublication img{
-	/*width: 35%;*/
-	/*max-height:300px;*/
-	/*margin-right:10px;*/
+	width: 35%;*/
+	/*max-height:300px;
+	/*margin-right:10px;
 	
-}
+}*/
 
 #rpublication ul li {
    line-height:1.4em;
@@ -242,10 +237,10 @@ margin-left: 40%;
 	margin-left: 40%;
 }
 
-#rpublication .fig{
+/*#rpublication .fig{
 	margin-left: 40%;
-	 display: inline-block;
-}
+
+}*/
 
 #rpublication h3{
 	margin-left: 40%;
