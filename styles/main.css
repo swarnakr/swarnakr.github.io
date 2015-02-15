@@ -69,10 +69,10 @@ h4 {
 
 h5 {
     font-size: 16px;
-    font-weight: bold;
     color: #C51558;
-    display: inline-block; 
- padding: 0px;
+    /*display: inline-block; */
+font-weight: bold;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -265,6 +265,18 @@ mypublications hr {
 	clear: both;
 }
 
+date {
+    /*display: block;*/
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+	margin-left: 1%;
+}
+
+#rpublication h7 {
+    font-weight: bold;
+    color: #C51558;
+}
 /*-------------------------------*/
 #otherthing{
 	height = 300px;
@@ -287,6 +299,11 @@ mypublications hr {
 	color: #C51558; /*#901E90;*/
 }
 
+#otherthing h7{
+    font-weight: bold;
+    color: #C51558;
+}
+
 myotherthings{
 	height: auto;
 	width: 95%;
@@ -305,6 +322,7 @@ myotherthings hr {
     padding: 0;
 	clear: both;
 }
+
 /*----------------------*/
 
 
