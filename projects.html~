@@ -1,0 +1,191 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Swarna KR</title>
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+
+<body>
+<div id="wrapper">
+<header id="top">
+<h1>Swarna &nbsp; Kamlam  &nbsp; Ravindran</h1>
+<div id="headimg">
+<!---<article id="headimgarticle">   	  	
+    	</article>--> 
+ </div>
+
+    <nav id="mainnav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="thispage">Projects</a></li>
+       <!-- <li><a href="interesting.html">Geeky & Cool</a></li>-->
+        <li><a href="hobbies.html">Alter Ego</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!----------------------------------------->
+  
+  <article id="researchmain">
+    <mypublications>
+      <h2>Projects: Computer Vision</h2>
+      <p>
+      <hr>
+      
+      <div id="rpublication">
+        <figure><img src="docs/images/boundarydet.png" width= "25%" vspace="5%" alt="" align="left"/></a></figure>    
+        <h3>Features on Object Boundaries
+<date>(Dec 2012 - Present)</date>
+</h3>
+        <p class = "publicationbib"> <ul>
+<li>Traditional gradient-based features fail at depth discontinuities due to object motion against a varying background. Our features work on the curve describing the object leading to more accurate tracking.
+</li>
+</ul>
+</p>
+        <p class = "publicationsummary"><a href="http://arxiv.org/
+abs/1412.1957"> CoMIC: Corners on Maximally-stable Iso-intenstiy Curves</a>,
+Swarna Kamlam Ravindran and Anurag Mittal, under review at IEEE CVPR 2015  <a href =" https://swarnakr.github.io/">supplementary material</a>.
+        <p class = "publicationsummary">CoMIC features for Tracking and Image Matching, Swarna Kamlam Ravindran and Anurag Mittal, IJCV draft in preparation.
+</p>
+
+</p>
+
+<!----------------------------------------->
+  
+      </div>
+      <hr>
+      
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/iitmLogo.png" width="19%" hspace="5%" vspace="7%" alt="" align="left"/></a></figure>    
+        <h3>Features for Panoroma Applications
+<date>(Dec 2009 - Dec 2010)</date>
+</h3>
+        <p class = "publicationbib"><ul><li> A feature detector using a probabilistic combination of stable extremal regions
+incorporated into a 3D reconstruction system.
+
+</li><li>Mosaicing and Contour detection software were implemented by using shape
+geometry to achieve scale invariance.</li>
+</ul>
+</p>
+
+      </div>
+      <hr>
+<!----------------------------------------->
+  
+      
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/face.png" width="25%" vspace="2%" alt="" align="left"/></a></figure>    
+        <h3>3D Face Recognition <date>(Dec 2008 - May 2009)</date>
+</h3>
+        <p class = "publicationbib"><ul><li> Designed a face recognition system using a descriptor formed as a 2D histogram of distances between points near a landmark point to the corresponding tangent plane. Experiments were performed on range images of six subjects with varying illumination. 
+</li></ul>
+</p>
+        <p class = "publicationsummary"><h7>3D Face Recognition system using a Local Shape Descriptor</h7>, Swarna Kamlam Ravindran and Sumithra G, International Symposium on Computing, Communication, and Control (ISCCC) 2009.
+</p>
+      </div>
+<hr>
+<!----------------------------------------->
+        
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/bag.png" width="20%" hspace="2%" vspace="1%" alt="" align="left"/></a></figure>    
+        <h3>Bag detection for TCS project <date>(Jul 2008 - Dec 2008)</date></h3>
+        <p class = "publicationbib"><ul><li> Principles of symmetricity were used to identify humans carrying bags or other
+objects. Periodocity check was employed to identify vehicles or animals in motion.
+</li></ul>
+</p>
+     </div>
+      <hr>
+
+<!----------------------------------------->
+  
+             <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/pr.png" width="25%" alt="" align="left"/></a></figure>    
+        <h3>Modules for Music & Speech projects, IIT
+<date>(Nov 2011 - Feb 2012)</date></h3>
+        <p class = "publicationbib"><ul><li>Data classification was performed using Linde Buzo Algorithm and K means clustering.
+	</li><li>Bayesian Clustering and Bayesian classification using BE, ML, MAP was implemented to classify high-dimensional data points.
+</li></ul>
+	</p>
+       <p class = "fig">
+	<figure><a href="docs/PatternRecog.zip"><img src="docs/images/code.png" width="5%" alt="" hspace = "40%" align="left"/></a></figure>          	</p>
+      </div>
+<hr>
+
+<!----------------------------------------->
+
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/cv.png" width="32%" style="PADDING-TOP: 5%" alt="" align="left"/></a></figure>    
+        <h3>Projects in Computer Vision <date>(May 2011 - Jul 2011)</date></h3>
+        <p class = "publicationbib"><ul><li>Codes for Image Mosaicing, Image Rectification and Parabola detection using Hough transform were developed</li></ul>
+	</p>
+       <p class = "fig">
+	<figure><a href="docs/cv_projects.zip"><img src="docs/images/code.png" width="5%" alt="" hspace = "40%" align="left"/></a></figure>          	</p>
+      </div>
+<hr>
+<!-- ******************************************************************************************************-->
+     
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/adsp.png" width="25%" alt="" align="left"/></a></figure>    
+        <h3>Projects in Advanced DSP <date>(May 2011 - Jul 2011)</date></h3>
+        <p class = "publicationbib"><ul><li>Non-stationary analysis on audio signals was performed using spectrogram, scalogram and Wigner-Ville distributions. Tools to analyse an ECG signal and perform
+Signal Quantisation were developed.</ul>
+	</p>
+       <p class = "fig">
+	<figure><a href="docs/adsp.zip"><img src="docs/images/code.png" width="5%" alt="" hspace = "40%" align="left"/></a></figure>          	</p>
+      </div>
+<hr>
+
+
+<!----------------------------------------->
+
+  <!----
+******************************************************************************************************-->
+<hr>
+      <h2>Projects: Coding Theory</h2>
+      <hr>
+	
+      <!----------------------------------------->
+
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/thresh.jpg" width="18%" hspace="4%" alt="" align="left"/></a></figure>    
+        <h3>Threshold Decoder for TeNet project, IIT<date>(Jan 2012 - Aug 2012)</date>
+</h3>
+        <p class = "publicationbib"><ul><li> Built a threshold decoder for Soft Linear Block Codes using Bossert Hergert Algorithm.
+	</li><li>Built decoders for Hamming and Reed Muller codes.
+</li></ul>
+	</p>
+       <p class = "fig">
+	<figure><a href="docs/ThresholdDecoder.zip"><img src="docs/images/code.png" width="5%" alt="" hspace = "40%" align="left"/></a></figure>          	</p>
+      </div>
+	<hr>
+<!----------------------------------------->
+
+      <div id="rpublication">
+        <figure><a href="#"><img src="docs/images/modCod.jpg" width="28%" alt="" align="left"/></a></figure>    
+        <h3>Decoders for TeNet project, IIT-Madras <date>(Jan 2012 - Aug 2012)</date> </h3>
+	
+
+        <p class = "publicationbib"><ul><li> Built generic encoder-decoders for different types of LDPC codes and channels.
+	</li><li>Built a generic Viterbi decoder for convolution codes.</li></ul>
+	</p>
+       <p class = "fig">
+	<figure><a href="docs/DecodersCodingTheory.zip"><img src="docs/images/code.png" width="5%" alt="" hspace = "40%"  align="left"/></a></figure>          	</p>
+      </div>
+<hr>
+
+      <!----------------------------------------->
+    </mypublications>
+  </article>
+  <footer>
+    <p>Do you see what I C?</p>
+  </footer>
+</div>
+</body>
+</html>
+
