@@ -2,58 +2,32 @@
 /* CSS Document */
 
 #body {
-	color: #151515;
-	background-color: #EFF5F8;
+	color: #494b4f;
 }
-#wrapper {
+
+#mainpage {
 	height: auto;
-	width: 100%;
-	max-width: 1200px;
-	min-width: 700px;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#headimg {
-    position: relative;
-    clear: left;
-}
-
-
-#headimg article {
-    width: 20%;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #151515;
-    color: #FFFFFF;
-    border-radius: 15px;
-	text-align:center;
-}
-
-#headimg h2 {
-    color: #FFFFFF;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#headimg img{
-	max-width:100%;
-}
-
-h1, h2 {
-    color: #901E90;
-    font-style: normal;
-    font-weight: 600;
-    font-family: source-sans-pro;
-}
 
 h1 {
-    font-size: 50px;
+    color: #494b4f;
+ /*   font-style: normal;*/
+    font-weight: 600;
+    font-family: 'Tangerine', serif;
     text-align: center;
-    /*text-transform: uppercase;*/
+    font-size: 50px;
+
+}
+
+h2 {
+    color: #494b4f;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Tangerine',serif;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -61,15 +35,12 @@ h1 {
 h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #660035;
-/*    display: inline-block; */
- padding: 0px;
-    margin: 0px;
+    color: #494b4f; 
 }
 
 h5 {
     font-size: 16px;
-    color: #660035;
+    color: #494b4f;
     /*display: inline-block; */
 font-weight: bold;
     padding: 0px;
@@ -179,25 +150,18 @@ a:hover, a:active, a:focus {
 	text-align:center;
 }
 
-/*#mainnav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0px;
-}*/
-
 #mainnav li {
 	display:inline;
 }
 
 #mainnav a {
     width: 27%;
-    /*display: block;*/
 	display: inline-block;
-    /*float:left;*/
     background-color: #4D4D4D;
     text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
+  font-style: italic;
+  color: #FFFFFF;
+    font-family: 'Tangerine',serif;
     padding-top: 6px;
     padding-bottom: 6px;
 }
