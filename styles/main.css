@@ -1,8 +1,8 @@
 @charset "UTF-8";
-/* CSS Document */
-
 #body {
 	color: #494b4f;
+       font-family: 'Bungee Inline', serif;
+    
 }
 
 #mainpage {
@@ -12,29 +12,42 @@
 	margin-right: auto;
 }
 
-
 h1 {
     color: #494b4f;
- /*   font-style: normal;*/
-    font-weight: 600;
-    font-family: 'Tangerine', serif;
+    font-weight: 100;
+    font-family: 'Bungee Inline', serif;
     text-align: center;
     font-size: 50px;
-
+   text-shadow: 6px 6px 6px #aaa;
+  
 }
 
 h2 {
     color: #494b4f;
-    font-style: normal;
-    font-weight: 600;
-    font-family: 'Tangerine',serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-weight: 100;
+    font-family: 'Bungee Inline',serif;
+}
+
+h3 {
+    color: #494b4f;
+    font-weight: 50;
+    font-family: 'Bungee Inline',serif;
+}
+
+p {
+   font-family: 'Special Elite',serif;
+font-size: 20px; 
+}
+
+
+li {
+   font-family: 'Special Elite',serif;
+font-size: 20px; 
 }
 
 h4 {
-    font-size: 16px;
-    font-weight: bold;
+ font-family: 'Special Elite',serif;
+font-size: 20px; 
     color: #494b4f; 
 }
 
@@ -108,9 +121,10 @@ figcaption {
     /*display: block;*/
     text-align: center;
     font-weight: bold;
-    font-size: 12px;
-	margin: auto;
-}
+    font-size: 16px;
+    font-family: 'Special Elite',serif;
+    margin-top: 10px;
+ }
 
 .centered {
     margin-left: auto;
@@ -129,16 +143,16 @@ figcaption {
 
 a {
     font-weight: bold;
-    color: #660035;
-    text-decoration: none;
+    font-family: 'Special Elite',serif;
+    color: #086014;
 }
 
 a:link {
-    color: #660035;
+    color: #086014;
 }
 
 a:visited {
-    color: #660035;
+    color: #012305;
 }
 
 a:hover, a:active, a:focus {
@@ -146,101 +160,42 @@ a:hover, a:active, a:focus {
     text-decoration: underline;
 }
 
-#mainnav {
+#tabs {
 	text-align:center;
 }
 
-#mainnav li {
+#tabs li {
 	display:inline;
 }
 
-#mainnav a {
+#tabs a {
     width: 27%;
 	display: inline-block;
     background-color: #4D4D4D;
     text-align: center;
-  font-style: italic;
-  color: #FFFFFF;
-    font-family: 'Tangerine',serif;
+    color: #FFFFFF;
+    font-family: 'Special Elite',serif;
     padding-top: 6px;
     padding-bottom: 6px;
 }
 
-#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
-    text-decoration: none;
-    background-color: #BC257A;
+#tabs a:hover, #tabs a:active, #tabs a:focus, #tabs a.thispage {
+    background-color: #086014;
 }
 
 /*----------------------------------*/
 
-#rpublication{
-	height = 300px;
-	width = 1900px;
-	margin-bottom:10px;
+#pub{
+	height = 40%;
+	width = 80%;
+	margin-bottom: 5%;
 }
-/*
-#rpublication img{
-	width: 35%;*/
-	/*max-height:300px;
-	/*margin-right:10px;
-	
-}*/
 
-#rpublication ul li {
+#pub ul li {
    line-height:1.4em;
-	margin:0px;
-	padding:0px;
-margin-left: 40%;
+   margin-left: 25%;
 }
 
-#rpublication .publicationbib{
-	margin-left: 40%;
-}
-
-#rpublication .publicationsummary{
-	margin-left: 40%;
-}
-
-/*#rpublication .fig{
-	margin-left: 40%;
-
-}*/
-
-#rpublication h3{
-	margin-left: 40%;
-	color: #660035; /*#901E90;*/
-}
-
-mypublications{
-	height: auto;
-	width: 95%;
-	max-width: 1900px;
-	min-width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-mypublications hr {
-    display: block;
-      border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-	clear: both;
-}
-
-date {
-    /*display: block;*/
-    text-align: right;
-    font-weight: bold;
-    font-size: 12px;
-	margin-left: 1%;
-}
-
-#rpublication h7 {
-    font-weight: bold;
-    color: #660035;
-}
 /*-------------------------------*/
 #otherthing{
 	height = 300px;
